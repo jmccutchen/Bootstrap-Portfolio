@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
     <title>Contact</title>
@@ -13,24 +14,40 @@
 <body>
 
     <header class="mainhead">
-        <h1 id="myname">John McCutchen</h1>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" id="myname" href="#">John McCutchen</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
 
-        <ul>
-            <li class="navs">About</li>
-            <li class="navs">Portfolio</li>
-            <li class="navs">Contact</li>
-        </ul>
+            </div>
+        </nav>
+
 
     </header>
 
 </body>
 
 <div class="mainsection">
-    <section class="border">
+    <section class="border row">
 
+        <div class="content col-md-12" class="contactform">
         <header class="sectionhead">Contact</header>
 
-        <div class="content" class="contactform">
+        
             <form>
                 <label for="fullname">Name</label>
                 <input type="text" id="fullname" name=fullname placeholder="John Smith">

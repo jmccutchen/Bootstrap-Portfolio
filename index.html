@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
     <title>All About Me</title>
@@ -12,14 +13,30 @@
 
 <body>
 
-    <header class="mainhead">
-        <h1 id="myname">John McCutchen</h1>
 
-        <ul>
-            <li class="navs">About</li>
-            <li class="navs">Portfolio</li>
-            <li class="navs">Contact</li>
-        </ul>
+    <header class="mainhead">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" id="myname" href="#">John McCutchen</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
 
     </header>
 
@@ -29,30 +46,37 @@
             <div class="container">
                 <header class="sectionhead">About Me</header>
 
-                <div class="content">
-                    <img id="profilepic" src="./assets/images/profile.jpg" alt="Picture of me">
-                    <p class="description"> Did he just throw my cat out of the window? You really think you can fly
-                        that
-                        thing? Just my luck, no ice. I gave it a cold? I gave it a virus. A computer virus. You know
-                        what?
-                        It is beets. I've crashed into a beet truck. Must go faster. Remind me to thank John for a
-                        lovely
-                        weekend.
+                <div class="content row">
+                    <div class="col-md-2">
+                        <img id="profilepic" src="./assets/images/profile.jpg" alt="Picture of me">
+                    </div>
+                    <p class="description col-md-10"> Did he just throw my cat out of the window? You really think you
+                        can fly that thing? Just my luck, no ice. I gave it a cold? I gave it a virus. A computer virus. You know
+                        what? It is beets. I've crashed into a beet truck. Must go faster. Remind me to thank John for a
+                        lovely weekend. 
                         <br>
                         <br>
-                        God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates
+                        Did he just throw my cat out of the window? You really think you
+                        can fly that thing? Just my luck, no ice. I gave it a cold? I gave it a virus. A computer virus. You know
+                        what? It is beets. I've crashed into a beet truck. Must go faster. Remind me to thank John for a
+                        lovely weekend.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p>God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates
                         Dinosaurs. They're using our own satellites against us. And the clock is ticking. Yeah, but
                         John, if
                         The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.
-                        <br>
-                        <br>
-                        Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop
+                    </p>
+
+                    <p>Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop
                         to
                         think if they should. Remind me to thank John for a lovely weekend. Yes, Yes, without the oops!
                         God
                         help us, we're in the hands of engineers. Yeah, but your scientists were so preoccupied with
                         whether
-                        or not they could, they didn't stop to think if they should. </p>
+                        or not they could, they didn't stop to think if they should.
+                    </p>
                 </div>
             </div>
 
