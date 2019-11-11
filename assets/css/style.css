@@ -1,13 +1,15 @@
 body {
-    color: #777777;
+    
 }
 
 
 #myname {
-    background-color: #4aaaa5;
+    text-shadow: 2px 1px black;
     color: white;
     font-weight: bold;
-    width: 190px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 35px;
+    width: auto;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -16,12 +18,12 @@ body {
 
 }
 
-.navs {
-    display: inline;
-    float: left;
-    padding: 40px 20px 10px 20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+.navStyle {
+    color: white;
+    text-shadow: 2px 1px black;
 }
+
+
 
 .mainhead:after {
     content: '';
@@ -55,11 +57,14 @@ body {
 
 .sectionhead {
     padding: 15px 15px 15px 0px;
-    color: #4aaaa5;
+    color: rgb(14, 1, 1);
     border-bottom: 2px solid #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
     
 }
 
@@ -86,10 +91,10 @@ body {
 .footer {
     padding-top: 30px;
     background-color: #666666;
-    border-top: 10px solid #4aaaa5;
-    /* margin-top: 50px; */
     text-align: center;
     color: #ffffff;
+    border-width: 15px !important;
+    
 }
 
 #fullname {
