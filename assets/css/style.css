@@ -80,8 +80,8 @@ body {
 #profilepic{
     float: left;
     width: 150px;
-    height: 150px;
-    margin: 5px 10px 15px 0px;
+    height: 180px;
+    margin: 5px 10px 5px 0px;
 }
 
 .description {
@@ -201,6 +201,13 @@ form {
 #dayPlanner {
  max-height: 100%;
  max-width: 100%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
