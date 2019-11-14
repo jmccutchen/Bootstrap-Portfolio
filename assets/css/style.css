@@ -19,11 +19,13 @@ body {
 }
 
 .navStyle {
-    color: white;
+    
     text-shadow: 2px 1px black;
 }
 
-
+.nav-link {
+    color: white !important;
+}
 
 .mainhead:after {
     content: '';
@@ -32,9 +34,19 @@ body {
    
 }
 
-.mainhead {
-    border-width: 15px !important;
+#mainhead {
+    border-bottom-width: 15px !important;
     border-bottom-color: #537ec5 !important;
+}
+
+.footer {
+    padding-top: 30px;
+    background-color: #293a80;
+    text-align: center;
+    color: #ffffff;
+    border-width: 15px !important;
+    border-top-color: #537ec5 !important;
+    
 }
 
 
@@ -96,15 +108,7 @@ body {
     
 }
 
-.footer {
-    padding-top: 30px;
-    background-color: #293a80;
-    text-align: center;
-    color: #ffffff;
-    border-width: 15px !important;
-    border-top-color: #537ec5 !important;
-    
-}
+
 
 #fullname {
     width: 100%;
@@ -157,7 +161,9 @@ form {
     display: block;
     width: 300px;
     height: 250px;
-    margin: 20px 20px 20px 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px 0px 5px 20px;
    
 }
 
@@ -166,11 +172,10 @@ form {
     padding: 5px 0px 5px 20px;
     background-color: #537ec5;
     border: solid 2px #f39422;
-    
+    text-shadow: 1px 1px black;
     text-align: center;
     font-weight: bold;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 25px 15px 25px 40px;
     border-radius: 25px;
     
 }
@@ -195,6 +200,8 @@ form {
 #deetsDash {
  max-height: 100%;
  max-width: 100%;
+ justify-content: center;
+ 
 }
 
 
